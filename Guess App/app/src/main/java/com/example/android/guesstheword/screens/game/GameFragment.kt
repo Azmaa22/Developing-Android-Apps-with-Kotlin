@@ -17,6 +17,7 @@
 package com.example.android.guesstheword.screens.game
 
 import android.os.Bundle
+import android.text.format.DateUtils
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -56,24 +57,25 @@ class GameFragment : Fragment() {
 
 
 
-        Log.i("viewmodel provider", "Called ViewModelProviders.of")
         gameViewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
+        // ViewModel DataBinding
+        binding.gameViewModel = gameViewModel
         gameViewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
             binding.scoreText.text = newScore.toString()
         })
         gameViewModel.word.observe(viewLifecycleOwner, Observer { newWord ->
             binding.wordText.text = newWord
         })
-        binding.correctButton.setOnClickListener {
-            Log.i("correctButton", "Clicked")
-            gameViewModel.onCorrect()
+        gameViewModel.currentTime.observe(viewLifecycleOwner, Observer { currentTime ->
+            binding.timerText.text = DateUtils.formatElapsedTime(currentTime)
+        })
+        gameViewModel.eventGameFinish.observe(viewLifecycleOwner, Observer { gameIsFinish ->
+            if (gameIsFinish) {
+                gameFinished()
+                gameViewModel.onGameFinishComplete()
+            }
+        })
 
-        }
-        binding.skipButton.setOnClickListener {
-            Log.i("skipButton", "Clicked")
-            gameViewModel.onSkip()
-
-        }
         return binding.root
 
     }
