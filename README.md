@@ -9,8 +9,7 @@ Developing Android Apps with Kotlin from Udacity
 <table>
   <tr>
     <th>Dice Roller App</th>
-    <th>Guess Word App</th>
-    <th>trivia App</th>
+  
     <th>Color Views App</th>
     <th>About App</th>
   </tr>
@@ -29,6 +28,8 @@ Developing Android Apps with Kotlin from Udacity
   
 </table>
 <table>
+  <tr>  <th>Guess Word App</th>
+    <th>trivia App</th></tr>
   <tr>
  <td>
        <img src="https://user-images.githubusercontent.com/52568588/234418358-b217c229-9b0a-42e4-9160-db1b0586b901.gif"  width="200" height="400" />
