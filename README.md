@@ -18,12 +18,7 @@ Developing Android Apps with Kotlin from Udacity
     <td>
        <img src="https://user-images.githubusercontent.com/52568588/229556280-6dbe3ce0-2604-4915-88c5-a47687e10a59.gif"  width="200" height="400" />
     </td>
-   <td>
-       <img src="https://user-images.githubusercontent.com/52568588/234418358-b217c229-9b0a-42e4-9160-db1b0586b901.gif"  width="200" height="400" />
-    </td>
-    <td>
-        <img src="https://user-images.githubusercontent.com/52568588/234420232-cdb3d7bc-78a3-433b-b945-5fb4cf44ef55.gif"  width="200" height="400" />
-     </td>
+   
     <td>
         <img src="https://user-images.githubusercontent.com/52568588/234420204-b8b0be02-a47f-4bb1-818c-b49afe043410.gif"  width="200" height="400" />
      </td>
@@ -35,10 +30,12 @@ Developing Android Apps with Kotlin from Udacity
 </table>
 <table>
   <tr>
- <td> <img src="https://user-images.githubusercontent.com/52568588/170867844-74c480e0-9876-4508-9f83-e63b2b055825.png"  width="200" height="400" />
+ <td>
+       <img src="https://user-images.githubusercontent.com/52568588/234418358-b217c229-9b0a-42e4-9160-db1b0586b901.gif"  width="200" height="400" />
     </td>
-     <td> <img src="https://user-images.githubusercontent.com/52568588/170867853-4d57602b-8406-40d4-be2d-37b70ca83edf.png"  width="200" height="400" />
-    </td>
+    <td>
+        <img src="https://user-images.githubusercontent.com/52568588/234420232-cdb3d7bc-78a3-433b-b945-5fb4cf44ef55.gif"  width="200" height="400" />
+     </td>
     
  </tr>
 </table>
