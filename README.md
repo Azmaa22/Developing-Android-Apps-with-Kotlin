@@ -10,6 +10,7 @@ Developing Android Apps with Kotlin from Udacity
  
    <tr>
     <th>Dice Roller App</th>
+
     <th>Color Views App</th>
     <th>About Me App</th>
   </tr>
@@ -17,7 +18,8 @@ Developing Android Apps with Kotlin from Udacity
     <td>
        <img src="https://user-images.githubusercontent.com/52568588/229556280-6dbe3ce0-2604-4915-88c5-a47687e10a59.gif"  width="200" height="400" />
     </td>
-  
+   
+   
     <td>
         <img src="https://user-images.githubusercontent.com/52568588/234420204-b8b0be02-a47f-4bb1-818c-b49afe043410.gif"  width="200" height="400" />
      </td>
