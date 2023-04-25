@@ -5,10 +5,10 @@ Developing Android Apps with Kotlin from Udacity
 [course link](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
 
 ## Apps are developed while course
+
+
 <table>
-  
- 
-   <tr>
+    <tr>
     <th>Dice Roller App</th>
     <th>Color Views App</th>
     <th>About App</th>
